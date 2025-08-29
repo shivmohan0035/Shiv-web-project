@@ -1,0 +1,7 @@
+table,th,td{
+    border: 1px solid #f5eceb;
+    text-align: center;
+    background-color: rgb(140, 211, 226);
+    border-collapse:collapse;
+    height: 90px;
+};
