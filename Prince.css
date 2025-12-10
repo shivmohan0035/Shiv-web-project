@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+     
+}
+.my_container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+/* making the list in single line and display with gap is used for produce gap  between home,work,about,project,services*/
+.navlist{ 
+    display: flex;
+    gap: 3.5rem;
+    /* background-color: rgb(137, 236, 236); */
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+/* remove the point in list */
+.navlist li{
+    list-style: none;
+}
+
+.navlist li a{
+    /* remove the underline from anker tags */
+    text-decoration: none;
+    /* convert the artibute into upper case */
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.left-container,.right-container{
+ height:100vh ;
+}
+
+.left-container{
+    background: #262525;
+    width:70%
+}
+
+.right-container{
+    background: #3877ff;
+    width: 30%;
+}
